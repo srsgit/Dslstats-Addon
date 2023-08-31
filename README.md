@@ -14,3 +14,12 @@ Containerisation allowed move from a rPi3 to an x64 Home Assistant Addon.
 - Simple webserver exposes files on port 8080
 - Inbuilt Webserver doesn't work
 - Snapshot files are parsed by a separate Addon to populate an InfluxDB
+
+Installing
+- copy files to folder inside the HA addons folder
+- install addon
+- start addon
+- connect addon with VNC
+- configure DSLstats
+  - configuration saved to HA /config/dslstats.ini
+
