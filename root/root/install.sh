@@ -3,7 +3,6 @@ set -e
 
 apt-get update
 apt-get install -y --force-yes --no-install-recommends    supervisor 
-apt-get install -y --force-yes --no-install-recommends    tini 
 apt-get install -y --force-yes --no-install-recommends    xinetd 
 apt-get install -y --force-yes --no-install-recommends    x11vnc 
 apt-get install -y --force-yes --no-install-recommends    xvfb 
