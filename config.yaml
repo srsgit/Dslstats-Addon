@@ -1,6 +1,6 @@
 name: "DSLstats"
 description: "Monitor DSL stats"
-version: "0.1.1"
+version: "0.1.2"
 slug: "dslstats"
 init: false
 arch:
@@ -11,7 +11,6 @@ arch:
   - i386
 ports:
   5900/tcp: 5900
-  8080/tcp: 8080
   55555/tcp: 55555
 host_network: true
 map: 
