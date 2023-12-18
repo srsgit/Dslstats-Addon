@@ -18,7 +18,7 @@ x11vnc -forever -usepw -display $DISPLAY -shared &
 PID2=$!
 sleep 5
 
-if [ -d /root/.dslstats/webserver/]; then
+if [ -d /root/.dslstats/webserver/ ]; then
 	mv /root/.dslstats/webserver/ /root/.dslstats/Webserver/
 fi
 
